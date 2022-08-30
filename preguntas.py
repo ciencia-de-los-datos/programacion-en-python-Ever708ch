@@ -12,6 +12,7 @@ Utilice el archivo `data.csv` para resolver las preguntas.
 
 """
 from collections import Counter
+from operator import itemggeter
 data = open('data.csv','r')
 def pregunta_01():
     """
@@ -41,8 +42,8 @@ def pregunta_02():
     ]
 
     """
-    list_alf = [row[1] for row in data]
-    x = Counter(list_alf)
+    list_alf = [row[0] for row in data]
+    x = list_alf.count
     return x
 
 
