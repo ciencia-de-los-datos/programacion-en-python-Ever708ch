@@ -11,7 +11,7 @@ Utilice el archivo `data.csv` para resolver las preguntas.
 
 
 """
-
+from collections import Counter
 data = open('data.csv','r')
 def pregunta_01():
     """
@@ -41,7 +41,7 @@ def pregunta_02():
     ]
 
     """
-    reg_alf = counter({row[1] for row in data})
+    reg_alf = Counter({row[1] for row in data})
     return reg_alf
 
 
