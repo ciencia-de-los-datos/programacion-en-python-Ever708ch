@@ -41,7 +41,8 @@ def pregunta_02():
     ]
 
     """
-    return
+    reg_alf = counter({row[1] for row in data})
+    return reg_alf
 
 
 def pregunta_03():
