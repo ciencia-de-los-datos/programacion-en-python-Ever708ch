@@ -41,7 +41,7 @@ def pregunta_02():
     ]
 
     """
-    list_alf = [row[0] for row in data]
+    list_alf = [row[1] for row in data]
     x = Counter(list_alf)
     return x
 
