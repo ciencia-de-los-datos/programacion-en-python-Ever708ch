@@ -41,7 +41,7 @@ def pregunta_02():
     ]
 
     """
-    
+    data = open('data.csv','r')
     row_0 = [(row[0]) for row in data]
     list_0 = []
     for n in row_0:
