@@ -25,8 +25,7 @@ def pregunta_01():
     sum_row_2 = sum([int(row[2]) for row in data])
     
     return sum_row_2
-
-
+  
 def pregunta_02():
     """
     Retorne la cantidad de registros por cada letra de la primera columna como la lista
@@ -42,11 +41,8 @@ def pregunta_02():
     ]
 
     """
-   def contador (a, b):
-      x = (row[0] for row in data)
-      y = (Counter(row[0]))
-      c = contador(x, y)
-      return c
+  
+    return 
     
 
 def pregunta_03():
