@@ -43,7 +43,7 @@ def pregunta_02():
 
     """
     list_alf = [row[0] for row in data]
-    x = list_alf.count
+    x = zip(Counter(list(list_alf)))
     return x
 
 
