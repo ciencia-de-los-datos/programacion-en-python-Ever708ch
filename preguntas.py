@@ -43,8 +43,12 @@ def pregunta_02():
 
     """
     list_alf = [str(row[0]) for row in data]
-    a = zip(Counter(lis_alf))
-    return a
+    a = Counter(lis_alf)
+    aa = str(a)
+    b = a.copy()
+    c= b.items
+    c
+    return c
     
 
 def pregunta_03():
