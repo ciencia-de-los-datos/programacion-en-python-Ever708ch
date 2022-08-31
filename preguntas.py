@@ -42,10 +42,10 @@ def pregunta_02():
     ]
 
     """
-    list_alf = [row[0] for row in data]
-    x = zip(Counter(list(list_alf)))
-    return x
-
+    list_alf = [str(row[0]) for row in data]
+    a = zip(Counter(lis_alf))
+    return a
+    
 
 def pregunta_03():
     """
