@@ -22,7 +22,7 @@ def pregunta_01():
     214
 
     """
-    sum_row_2 = sum([int(row[2]) for row in data]).readlines()
+    sum_row_2 = sum([int(row[2]) for row in data])
     
     return sum_row_2
   
@@ -55,9 +55,8 @@ def pregunta_02():
         list_1.append(row_0.count(z))
         
     list_1
-    list=list(zip(list_0, list_1)
-    print(list)
-              
+    list = list(zip(list_0, list_1))
+                  
     return list
     
 
