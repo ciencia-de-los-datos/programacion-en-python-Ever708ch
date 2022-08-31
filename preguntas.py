@@ -12,7 +12,7 @@ Utilice el archivo `data.csv` para resolver las preguntas.
 
 """
 from collections import Counter
-import fileinput
+
 data = open('data.csv','r')
 def pregunta_01():
     """
@@ -42,17 +42,11 @@ def pregunta_02():
     ]
 
     """
-    lista_de_tuplas = []
-    list_alf = [str(row[0]) for row in data]
-    )
-    
-    a = Counter(lis_alf)
-    aa = str(a)
-    b = a.copy()
-    tupla = (a.filename(),row
-    c= b.items
-    lista_de_tuplas.append(c)
-    return lista_de_tuplas
+   def contador (a, b):
+      x = (row[0] for row in timesheet)
+      y = (Counter(row[0]))
+      c = contador(x, y)
+    return c
     
 
 def pregunta_03():
