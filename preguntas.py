@@ -11,9 +11,9 @@ Utilice el archivo `data.csv` para resolver las preguntas.
 
 
 """
-from collections import Counter
 
 data = open('data.csv','r')
+
 def pregunta_01():
     """
     Retorne la suma de la segunda columna.
@@ -43,10 +43,10 @@ def pregunta_02():
 
     """
    def contador (a, b):
-      x = (row[0] for row in timesheet)
+      x = (row[0] for row in data)
       y = (Counter(row[0]))
       c = contador(x, y)
-    return c
+      return c
     
 
 def pregunta_03():
