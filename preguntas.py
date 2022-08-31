@@ -51,8 +51,8 @@ def pregunta_02():
     list_0.sort()
     list_1 = []
     for z in list_0:
-    list_1.append(row_0.count(z))
-    list = list(zip(list_0, list_1)
+        list_1.append(row_0.count(z))
+        list(zip(list_0, list_1)
     
     return list
     
