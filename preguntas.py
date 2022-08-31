@@ -41,8 +41,19 @@ def pregunta_02():
     ]
 
     """
-  
-    return 
+    
+    row_0 = [(row[0]) for row in data]
+    list_0 = []
+    for n in row_0:
+        if n not in list_0:
+            list_0.append(n)
+            continue
+    list_1 = []
+    for z in list_0:
+        list_1.append(row_0.count(z))
+    list = list(zip(list_0, list_1)
+    
+    return list
     
 
 def pregunta_03():
