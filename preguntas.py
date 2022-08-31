@@ -12,7 +12,7 @@ Utilice el archivo `data.csv` para resolver las preguntas.
 
 """
 from collections import Counter
-from operator import itemggeter
+
 data = open('data.csv','r')
 def pregunta_01():
     """
