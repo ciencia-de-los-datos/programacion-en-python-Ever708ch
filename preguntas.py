@@ -55,9 +55,9 @@ def pregunta_02():
         list_1.append(row_0.count(z))
         
     list_1
-    list = list(zip(list_0, list_1))
+    List = list(zip(list_0, list_1))
                   
-    return list
+    return List
     
 
 def pregunta_03():
