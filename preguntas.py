@@ -48,6 +48,7 @@ def pregunta_02():
         if n not in list_0:
             list_0.append(n)
             continue
+    list_0.sort()
     list_1 = []
     for z in list_0:
         list_1.append(row_0.count(z))
