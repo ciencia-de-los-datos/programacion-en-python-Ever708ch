@@ -92,7 +92,7 @@ def pregunta_03():
              e.append(int(i[2]))  
        suma.append(sum(e))    
        c+=1
-       
+       e =[]
     List=list(zip(list_0,suma))  
     print(List)
     
