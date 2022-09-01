@@ -82,8 +82,6 @@ def pregunta_03():
             list_0.append(n)
     list_0.sort()
     
-    for z in list_0:
-        list_1.append(sum(row[1]))
     list_1 = []
     suma=[]
     e=[]
@@ -91,10 +89,10 @@ def pregunta_03():
     for z in list_0:
        for i in data:
           if i[0] == list_0[c]:
-             e.append(int(i[1]))  
-       suma(e.append(sum(e)))    
+             e.append(int(i[2]))  
+       suma.append(sum(e))    
        c+=1
-       e=[]
+       
     List=list(zip(list_0,suma))  
     print(List)
     
