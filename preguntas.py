@@ -75,7 +75,7 @@ def pregunta_03():
     ]
 
     """
-    '''
+    
     row_0 = [(row[0]) for row in data]
     list_0 = []
     for n in row_0:
@@ -96,7 +96,7 @@ def pregunta_03():
        e =[]
     List=list(zip(list_0,suma))  
     print(List)
-    '''
+    
     return List
 
 
