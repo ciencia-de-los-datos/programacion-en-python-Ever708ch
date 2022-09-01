@@ -91,8 +91,8 @@ def pregunta_03():
     for z in list_0:
        for i in data:
           if i[0] == list_0[c]:
-             e.append(int(i[2]))  
-       suma.append(sum(e))      
+             e.append(int(i[1]))  
+       suma(e.append(sum(e)))    
        c+=1
        e=[]
     List=list(zip(list_0,suma))  
