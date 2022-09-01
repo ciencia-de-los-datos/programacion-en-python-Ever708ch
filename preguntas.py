@@ -47,7 +47,7 @@ def pregunta_02():
     for n in row_0:
         if n not in list_0:
             list_0.append(n)
-            continue
+            
     list_0.sort()
     
     list_1 = []
@@ -75,7 +75,33 @@ def pregunta_03():
     ]
 
     """
-    return
+    row_0 = [(row[0]) for row in data]
+    list_0 = []
+    for n in row_0:
+        if n not in row_0
+            list_0.append(n)
+    list_0.sort()
+    
+    for z in list_0:
+        list_1.append(sum(row[1]))
+    list_1 = []
+    suma=[]
+    e=[]
+    c=0
+    for z in list_0:
+       for i in data:
+          if i[0] == list_0[c]:
+             e.append(int(i[2]))
+
+          else:
+              continue   
+       suma.append(sum(e))      
+       c+=1
+       e=[]
+    List=list(zip(list_l,suma))  
+    print(List)
+    
+    return List
 
 
 def pregunta_04():
