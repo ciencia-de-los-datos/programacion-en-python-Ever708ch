@@ -12,7 +12,7 @@ Utilice el archivo `data.csv` para resolver las preguntas.
 
 """
 
-data = open('data.csv', 'r').readlines()
+
 def pregunta_01():
     """
     Retorne la suma de la segunda columna.
@@ -21,7 +21,7 @@ def pregunta_01():
     214
     
     """
-   
+    data = open('data.csv', 'r').readlines()
     sum_row_2 = sum([int(row[2]) for row in data])
     
     return sum_row_2
@@ -42,6 +42,7 @@ def pregunta_02():
     ]
 
     """
+    data = open('data.csv', 'r').readlines()
     row_0 = [(row[0]) for row in data]
     list_0 = []
     for n in row_0:
@@ -77,8 +78,8 @@ def pregunta_03():
     ]
 
     """
-    
-       row_0 = [(row[0]) for row in data]
+    data = open('data.csv', 'r').readlines()
+    row_0 = [(row[0]) for row in data]
     list_0 = []
     for n in row_0:
         if n not in list_0:
