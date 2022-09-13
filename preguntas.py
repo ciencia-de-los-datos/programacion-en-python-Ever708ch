@@ -374,7 +374,7 @@ def pregunta_10():
     print(list_tuples)
 
 
-    return
+    return list_tuples
 
 
 def pregunta_11():
